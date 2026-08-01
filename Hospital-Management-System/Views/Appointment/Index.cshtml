@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Doctor>
+<div class="container"> 
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4">
+
+                <div class="card h-100 shadow rounded-4 border-0">
+
+                    <img src="~/images/doc/@item.Image"
+                         class="card-img-top"
+                         style="height:280px; object-fit:cover;"
+                         alt="@item.Name">
+
+                    <div class="card-body text-center">
+
+                        <h5 class="card-title">@item.Name</h5>
+
+                        <p class="text-muted">@item.Specialization</p>
+
+                        <a href="/Appointment/enroll/@item.Id" class="btn btn-primary w-100">
+                            Make Appointment
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        }
+    </div>
+
+</div>

@@ -1,0 +1,10 @@
+insert into Doctors (id, name, image, specialization) values (8, 'Ely Beacon', '0.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (9, 'Mel Purple', '0.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (1, 'Marv Outridge', '0.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (8, 'Deeann Farragher', '0.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (8, 'Danell Yakobowitch', '0.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (1, 'Spike Curnnokk', '1.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (3, 'Shaine Waldrum', '0.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (4, 'Joby Titley', '1.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (6, 'Dannie Findlow', '0.jpg', 'error: undefined method `first'' for nil:NilClass');
+insert into Doctors (id, name, image, specialization) values (6, 'Amos Bedboro', '1.jpg', 'error: undefined method `first'' for nil:NilClass');
